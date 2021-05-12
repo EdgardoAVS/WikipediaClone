@@ -16,8 +16,18 @@ body{
     margin: 40px auto .5px;
     width: 270px;
     text-align: center;
-    font-family: Linux Libertine;
-    line-height: 2.3rem;
+    font-family: 'Linux Libertine', serif;
+    line-height: 2.3rem;    
+}
+
+
+
+h1::first-letter{
+    font-size: 4.5rem;
+}
+
+h1 span{
+    font-size: 4.5rem;
 }
 
 .header-logo{
@@ -35,7 +45,81 @@ h1{
     font-size: 3.2rem;
 }
 
+
 .slogan{
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.featured{
+    position: relative;
+    width: 546px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    height: 32.5rem;
+}
+
+.featured a:hover{
+    background-color: thistle;
+}
+
+.central-featured{
+    position: absolute;
+    width: 15.6rem;
+}
+
+.lang1{
+    right: 60%;
+    top: 0;
+}
+.lang2{
+    left: 60%;
+    top: 0;
+}
+.lang3{
+    right: 70%;
+    top: 20%;
+}
+.lang4{
+    left: 70%;
+    top: 20%;
+}
+.lang5{
+    right: 72%;
+    top: 40%;
+}
+.lang6{
+    left: 72%;
+    top: 40%;
+}
+.lang7{
+    right: 70%;
+    top: 60%;
+}
+.lang8{
+    left: 70%;
+    top: 60%;
+}
+.lang9{
+    right: 60%;
+    top: 80%;
+}
+.lang10{
+    left: 60%;
+    top: 80%;
+}
+.español a{
+    text-decoration: none;
+}
+
+.español a:hover{
+    text-decoration: underline;
+}
+
+.español small{
+    display: block;
+    color: #54595d;
+    text-decoration: none;
 }
