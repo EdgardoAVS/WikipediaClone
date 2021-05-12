@@ -133,4 +133,83 @@ h1{
     top: 80%;
 }
 
+.search-container{
+    width: 546px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 95%;
+}
 
+input[type="search"]::-webkit-search-cancel-button { display: none; }
+
+
+.search{
+    width: 100%;
+    height: 4.4rem;
+    padding: .8rem 9.6rem .8rem 1.2rem;
+    
+}
+
+.search:focus{
+    border-color: #36c;
+    box-shadow: inset 0 0 0 2px #36c;
+    outline: 0;
+    border: 0;
+}
+
+.search-input{
+    display: inline-block;
+    position: relative;
+    width: 73%;
+    vertical-align: top;
+}
+
+.select-lang-container{
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+}
+
+.lang{
+    position: absolute;
+    display: flex;
+    width: 3rem;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.lang:hover{
+    background-color: #f8f9fa;
+}
+
+label{
+    color: #54595d;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    position: absolute;
+    top: 0.3rem;
+    left: 2rem;
+    color: hsl(210deg 3% 36%);
+}
+
+.search-button{
+    display: inline-block;
+    min-height: 4.4rem;
+    padding: .8rem 2rem;
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+    border-radius: 0px 2px 2px 0;
+    border: 0;
+    box-sizing: border-box;
+    margin-left: -4.8px;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background: #447ff5;
+    border-color: #447ff5;
+}
