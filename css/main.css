@@ -67,14 +67,12 @@ h1{
 .central-featured{
     position: absolute;
     width: 15.6rem;
+    display: flex;
 }
-.central-featured:hover{
-    background-color: #eaecf0;
-    cursor: pointer;
 
-}
 .central-featured a:hover{
     text-decoration: underline;
+    background-color: #eaecf0;
 }
 
 .central-featured small{
@@ -85,12 +83,14 @@ h1{
 }
 
 .central-featured a{
+    position: absolute;
     font-weight: 600;
     text-decoration: none;
     font-size: 1.5rem;
     color: #36c;
-}
+    width: 100%;
 
+}
 
 .lang1{
     right: 60%;
