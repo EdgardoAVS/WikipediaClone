@@ -249,7 +249,7 @@ label{
     width: 50%;
     margin: -1.6rem auto 1.6rem;
     height: 1px;
-    left: 240px;
+    left: 430px;
 }
 .lang-list-border1{
     background-color: #c8ccd1;
@@ -259,7 +259,7 @@ label{
     width: 50%;
     margin: -1.6rem auto 1.6rem;
     height: 1px;
-    right: 240px;
+    right: 430px;
 }
 
 hr{
@@ -268,8 +268,62 @@ hr{
     margin: .26rem 1.3rem;
 }
 
-.aa{
-    width: 20px;
-    background-repeat: no-repeat;
-    background-image: url("http://1.bp.blogspot.com/-Aec0-ULAsDY/T9WCbn4KRtI/AAAAAAAAAGE/ANiBX1L8Tm8/s1600/4344075-aislados-de-arboles-de-dibujos-animados-ilustracion-vectorial.jpg");
+.footer{
+    display: flex;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 1.5rem;
+    font-size: 1.3rem;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 330px;
+    margin: 0 auto;
+    color: #54595d;
+    
+}
+
+.footer-sidebar{
+    display: flex;
+    margin-bottom: 40px;
+}
+.footer-side-app{
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 5px 5px;
+}
+.footer-sidebar-parrafo{
+    padding: 0 8px;
+    margin: 0;
+}
+
+.footer-side-app-content{
+    margin: 0;
+    padding: 0 8px;
+}
+
+.otras-apps{
+    
+    width: 60%;
+}
+
+
+
+
+.footer-sidebar-img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-side-app-img{
+    width: 40px;
+    height: 40px;
+}
+
+.apps{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
 }
