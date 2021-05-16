@@ -289,6 +289,16 @@ hr{
     display: flex;
     margin-bottom: 40px;
 }
+
+.footer-sidebar a{
+    text-decoration: none;
+    color: #36c;
+}
+
+.footer-sidebar a:hover{
+    text-decoration: underline;
+}
+
 .footer-side-app{
     display: flex;
     background-color: #f8f9fa;
@@ -326,4 +336,15 @@ hr{
     width: 40px;
     height: 40px;
     background-color: blue;
+}
+
+.footer-side-app-content ul li{
+    list-style: none;
+}
+.footer-side-app-content ul{
+    padding: 0;
+}
+
+.google{
+    max-width: 13rem;
 }
