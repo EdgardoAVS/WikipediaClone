@@ -315,8 +315,43 @@ hr{
 }
 
 .otras-apps{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 60%;
+    height: fit-content;
+    grid-row-gap: 30px;
+    /* grid-column-gap: 30px; */
+    margin-right: 30px;
+    
+}
+
+.otras-apps .apps a{
+    text-decoration: none;
+}
+
+.apps-container{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.apps-container:hover{
+    background: #eaecf0;
+}
+
+.app-img{
+    width: 40px;
+}
+
+.app-text{
+    display: grid;
+    margin-left: 15px;
+}
+.app-text-title{
+    color: #36c;
+}
+.app-text-description{
+    color: #54595d;
 }
 
 
@@ -332,19 +367,20 @@ hr{
     height: 40px;
 }
 
-.apps{
-    width: 40px;
-    height: 40px;
-    background-color: blue;
-}
+
 
 .footer-side-app-content ul li{
     list-style: none;
+    display: inline-block;
 }
 .footer-side-app-content ul{
     padding: 0;
 }
 
 .google{
-    max-width: 13rem;
+    max-width: 10em;
+}
+.apple{
+    max-width: 10em;
+    height: 3em;
 }
